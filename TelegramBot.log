@@ -1,0 +1,7 @@
+[02/18/2023 07:37:30 PM:pyrogram.dispatcher:253:ERROR] 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "C:\Users\DARK LORD\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "E:\Telegram bot making\EVA-MARIA\MyEvaMariaV2-main\plugins\pm_filter.py", line 193, in advantage_spoll_choker
+    movies = SPELL_CHECK.get(query.message.reply_to_message.id)
+AttributeError: 'NoneType' object has no attribute 'id'
